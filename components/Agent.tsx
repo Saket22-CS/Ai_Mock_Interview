@@ -6,6 +6,7 @@ import Image from "next/image";
 import { useState, useEffect } from "react";
 import { cn } from "@/lib/utils";
 import { vapi } from "@/lib/vapi.sdk";
+import { interviewer } from "@/constants";
 
 import { useRouter } from "next/navigation";
 
@@ -83,8 +84,32 @@ const Agent = ({
     };
   }, []);
 
+  const handleGenerateFeedback = async (messages: SavedMessage[]) => {
+      console.log('generate feedback here.');
+
+      const { success,  id } = {
+        success: true,
+        id: "feedback-id",
+      }
+
+      if (success && id) {
+        router.push(`/interview/${interviewId}/feedback`);
+      } else {
+        console.log("Error saving feedback");
+        router.push("/");
+      }
+    };
+
+
+
 useEffect(() => {
-    if (callStatus === CallStatus.FINISHED) router.push("/");    
+    if (callStatus === CallStatus.FINISHED) {
+      if (type === "generate") {
+        router.push("/");
+      } else {
+        handleGenerateFeedback(messages);
+      }
+    }    
   }, [messages, callStatus, type, userId]);
 
 
