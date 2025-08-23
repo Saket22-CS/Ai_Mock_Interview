@@ -22,9 +22,13 @@ With **real-time voice interaction**, **personalized AI-generated questions**, a
 
 ## 🖼️ Visuals
 
-| Homepage                                                               | Interview Page                                                      | Feedback Page                                                         |
-| ---------------------------------------------------------------------- | ------------------------------------------------------------------- | --------------------------------------------------------------------- |
-| ![Homepage](Images\HomePage.png) | ![Interview](Images\Interviewpage.png) | ![Feedback](Images\Feedbackpage.png) |
+| Homepage                                                               | Login Page                                                           |
+| ---------------------------------------------------------------------- | -------------------------------------------------------------------- |
+| ![Homepage](Images\HomePage.png) | ![Login](Images\Loginpage.png)        |
+
+| Interview Page                                                         | Feedback Page                                                        |
+| ---------------------------------------------------------------------- | -------------------------------------------------------------------- |
+| ![Interview](Images\Interviewpage.png)    | ![Feedback](Images\Feedbackpage.png) |
 
 ---
 
