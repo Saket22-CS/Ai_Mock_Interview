@@ -10,7 +10,6 @@ With **real-time voice interaction**, **personalized AI-generated questions**, a
 ## ✨ Features
 
 ✅ **Secure Authentication** – User accounts with Firebase (hacker-proof).
-
 ✅ **AI-Powered Interview Creation** – Customize interviews (role, type, stack, difficulty).
 ✅ **Real-Time Mock Interviews** – Conduct lifelike interviews via voice (powered by Vapi).
 ✅ **AI-Generated Questions** – Dynamic, role-specific, and tailored with Gemini AI.
